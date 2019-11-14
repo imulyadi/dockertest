@@ -16,7 +16,7 @@
        docker_container:
          name: container
          detach: yes
-         image: "imulyadi/httpd:1"
+         image: "imulyadi/httpd:2"
          state: started
          exposed_ports:
            - 80/tcp
